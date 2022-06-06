@@ -1,0 +1,481 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "string"
+        },
+        "accommodations": {
+            "bsonType": "string"
+        },
+        "address": {
+            "bsonType": "object",
+            "properties": {
+                "country": {
+                    "bsonType": "string"
+                },
+                "country_code": {
+                    "bsonType": "string"
+                },
+                "cross_street": {
+                    "bsonType": "string"
+                },
+                "location": {
+                    "bsonType": "object",
+                    "properties": {
+                        "coordinates": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "double"
+                            }
+                        },
+                        "is_location_exact": {
+                            "bsonType": "bool"
+                        },
+                        "type": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "street": {
+                    "bsonType": "string"
+                },
+                "suburb": {
+                    "bsonType": "string"
+                },
+                "zipcode": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "availability": {
+            "bsonType": "object",
+            "properties": {
+                "availability_fri": {
+                    "bsonType": "bool"
+                },
+                "availability_mon": {
+                    "bsonType": "bool"
+                },
+                "availability_sat": {
+                    "bsonType": "bool"
+                },
+                "availability_sun": {
+                    "bsonType": "int"
+                },
+                "availability_thur": {
+                    "bsonType": "bool"
+                },
+                "availability_tue": {
+                    "bsonType": "bool"
+                },
+                "availability_wed": {
+                    "bsonType": "bool"
+                }
+            }
+        },
+        "avg_price": {
+            "bsonType": "decimal"
+        },
+        "calendar_last_scraped": {
+            "bsonType": "date"
+        },
+        "cancellation_policy": {
+            "bsonType": "string"
+        },
+        "cleaning_fee": {
+            "bsonType": "decimal"
+        },
+        "connection_header": {
+            "bsonType": "string"
+        },
+        "connection_id": {
+            "bsonType": "objectId"
+        },
+        "consent_420": {
+            "bsonType": "bool"
+        },
+        "consent_alcohol": {
+            "bsonType": "bool"
+        },
+        "consent_contraception": {
+            "bsonType": "bool"
+        },
+        "consent_hard_drugs": {
+            "bsonType": "bool"
+        },
+        "consent_rules": {
+            "bsonType": "string"
+        },
+        "customer_meet_type": {
+            "bsonType": "string"
+        },
+        "description": {
+            "bsonType": "string"
+        },
+        "email_address": {
+            "bsonType": "string"
+        },
+        "extra_people": {
+            "bsonType": "decimal"
+        },
+        "first_review": {
+            "bsonType": "date"
+        },
+        "global_id": {
+            "bsonType": "objectId"
+        },
+        "hotel_location_meet_type": {
+            "bsonType": "bool"
+        },
+        "hourly_price": {
+            "bsonType": "decimal"
+        },
+        "images": {
+            "bsonType": "object",
+            "properties": {
+                "medium_url": {
+                    "bsonType": "string"
+                },
+                "picture_url_a": {
+                    "bsonType": "string"
+                },
+                "picture_url_b": {
+                    "bsonType": "string"
+                },
+                "picture_url_c": {
+                    "bsonType": "string"
+                },
+                "picture_url_d": {
+                    "bsonType": "string"
+                },
+                "picture_url_e": {
+                    "bsonType": "string"
+                },
+                "picture_url_f": {
+                    "bsonType": "string"
+                },
+                "picture_url_g": {
+                    "bsonType": "string"
+                },
+                "picture_url_h": {
+                    "bsonType": "string"
+                },
+                "picture_url_i": {
+                    "bsonType": "string"
+                },
+                "picture_url_j": {
+                    "bsonType": "string"
+                },
+                "picture_url_k": {
+                    "bsonType": "string"
+                },
+                "thumbnail_url": {
+                    "bsonType": "string"
+                },
+                "xl_picture_url": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "incall_price": {
+            "bsonType": "decimal"
+        },
+        "incall_price_3": {
+            "bsonType": "decimal"
+        },
+        "incall_price_4": {
+            "bsonType": "decimal"
+        },
+        "incall_price_48": {
+            "bsonType": "decimal"
+        },
+        "incall_price_6": {
+            "bsonType": "decimal"
+        },
+        "incall_price_overnight": {
+            "bsonType": "decimal"
+        },
+        "incall_price_two": {
+            "bsonType": "decimal"
+        },
+        "instagram_url": {
+            "bsonType": "string"
+        },
+        "last_review": {
+            "bsonType": "date"
+        },
+        "last_scraped": {
+            "bsonType": "date"
+        },
+        "linktree_url": {
+            "bsonType": "string"
+        },
+        "local_id": {
+            "bsonType": "objectId"
+        },
+        "long_term_sugar": {
+            "bsonType": "bool"
+        },
+        "minimal_time": {
+            "bsonType": "decimal"
+        },
+        "minimum_call_price": {
+            "bsonType": "string"
+        },
+        "minimum_deposit": {
+            "bsonType": "string"
+        },
+        "mobile_meet_type": {
+            "bsonType": "bool"
+        },
+        "name": {
+            "bsonType": "string"
+        },
+        "nood_for_food": {
+            "bsonType": "bool"
+        },
+        "nood_for_food_order_url": {
+            "bsonType": "string"
+        },
+        "notes": {
+            "bsonType": "string"
+        },
+        "number_of_reviews": {
+            "bsonType": "int"
+        },
+        "oncall_price": {
+            "bsonType": "decimal"
+        },
+        "onlyfans_url": {
+            "bsonType": "string"
+        },
+        "outcall_price": {
+            "bsonType": "decimal"
+        },
+        "payment_type_bank_wire": {
+            "bsonType": "bool"
+        },
+        "payment_type_bitcoin": {
+            "bsonType": "bool"
+        },
+        "payment_type_cash": {
+            "bsonType": "bool"
+        },
+        "payment_type_credit": {
+            "bsonType": "bool"
+        },
+        "payment_type_ethereum": {
+            "bsonType": "bool"
+        },
+        "payment_type_home_chore": {
+            "bsonType": "bool"
+        },
+        "payment_type_money_order": {
+            "bsonType": "bool"
+        },
+        "payment_type_venmo": {
+            "bsonType": "bool"
+        },
+        "premium_id": {
+            "bsonType": "objectId"
+        },
+        "private_location_meet_type": {
+            "bsonType": "bool"
+        },
+        "provider_required_to_book_accomodations": {
+            "bsonType": "bool"
+        },
+        "review_scores": {
+            "bsonType": "object",
+            "properties": {
+                "review_scores_accuracy": {
+                    "bsonType": "int"
+                },
+                "review_scores_checkin": {
+                    "bsonType": "int"
+                },
+                "review_scores_cleanliness": {
+                    "bsonType": "int"
+                },
+                "review_scores_communication": {
+                    "bsonType": "int"
+                },
+                "review_scores_location": {
+                    "bsonType": "int"
+                },
+                "review_scores_rating": {
+                    "bsonType": "int"
+                },
+                "review_scores_value": {
+                    "bsonType": "int"
+                }
+            }
+        },
+        "reviews": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "_id": {
+                        "bsonType": "string"
+                    },
+                    "comments": {
+                        "bsonType": "string"
+                    },
+                    "date": {
+                        "bsonType": "date"
+                    },
+                    "listing_id": {
+                        "bsonType": "string"
+                    },
+                    "reviewer_id": {
+                        "bsonType": "string"
+                    },
+                    "reviewer_name": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "security_deposit": {
+            "bsonType": "decimal"
+        },
+        "seeker": {
+            "bsonType": "object",
+            "properties": {
+                "seeker_about": {
+                    "bsonType": "string"
+                },
+                "seeker_age": {
+                    "bsonType": "string"
+                },
+                "seeker_body_type": {
+                    "bsonType": "string"
+                },
+                "seeker_caters_to": {
+                    "bsonType": "string"
+                },
+                "seeker_cup_size": {
+                    "bsonType": "string"
+                },
+                "seeker_ethnicity": {
+                    "bsonType": "string"
+                },
+                "seeker_eye_color": {
+                    "bsonType": "string"
+                },
+                "seeker_gender": {
+                    "bsonType": "string"
+                },
+                "seeker_hair_color": {
+                    "bsonType": "string"
+                },
+                "seeker_has_profile_pic": {
+                    "bsonType": "bool"
+                },
+                "seeker_height": {
+                    "bsonType": "string"
+                },
+                "seeker_id": {
+                    "bsonType": "string"
+                },
+                "seeker_identity_verified": {
+                    "bsonType": "bool"
+                },
+                "seeker_is_host": {
+                    "bsonType": "bool"
+                },
+                "seeker_listings_count": {
+                    "bsonType": "int"
+                },
+                "seeker_location": {
+                    "bsonType": "string"
+                },
+                "seeker_name": {
+                    "bsonType": "string"
+                },
+                "seeker_neighbourhood": {
+                    "bsonType": "string"
+                },
+                "seeker_picture_url": {
+                    "bsonType": "string"
+                },
+                "seeker_provider_host": {
+                    "bsonType": "string"
+                },
+                "seeker_response_rate": {
+                    "bsonType": "int"
+                },
+                "seeker_response_time": {
+                    "bsonType": "string"
+                },
+                "seeker_shoe_size": {
+                    "bsonType": "string"
+                },
+                "seeker_thumbnail_url": {
+                    "bsonType": "string"
+                },
+                "seeker_total_listings_count": {
+                    "bsonType": "int"
+                },
+                "seeker_url": {
+                    "bsonType": "string"
+                },
+                "seeker_verifications": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "seeker_id": {
+            "bsonType": "objectId"
+        },
+        "seeker_sugar_dad": {
+            "bsonType": "bool"
+        },
+        "services_provided": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "space": {
+            "bsonType": "string"
+        },
+        "summary": {
+            "bsonType": "string"
+        },
+        "trade_for": {
+            "bsonType": "bool"
+        },
+        "transit_required": {
+            "bsonType": "bool"
+        },
+        "twitter_url": {
+            "bsonType": "string"
+        },
+        "typical_connection_overview": {
+            "bsonType": "string"
+        },
+        "uberbooty_id": {
+            "bsonType": "objectId"
+        },
+        "uberbooty_url": {
+            "bsonType": "string"
+        },
+        "user_id": {
+            "bsonType": "objectId"
+        },
+        "verified_id": {
+            "bsonType": "objectId"
+        },
+        "video_price": {
+            "bsonType": "decimal"
+        },
+        "whatsapp_url": {
+            "bsonType": "string"
+        }
+    },
+    "title": "connection"
+}

@@ -1,0 +1,23 @@
+{
+    "anon-user": {
+        "name": "anon-user",
+        "type": "anon-user",
+        "disabled": true
+    },
+    "api-key": {
+        "name": "api-key",
+        "type": "api-key",
+        "disabled": false
+    },
+    "local-userpass": {
+        "name": "local-userpass",
+        "type": "local-userpass",
+        "config": {
+            "confirmEmailSubject": "Confirm you email Address!",
+            "emailConfirmationUrl": "https://forcesale.app/confirmEmail",
+            "resetPasswordSubject": "Here's your password reset request",
+            "resetPasswordUrl": "https://forcesale.app/confirmEmailresetPassword"
+        },
+        "disabled": false
+    }
+}

@@ -1,0 +1,46 @@
+[
+    {
+        "route": "/login",
+        "http_method": "POST",
+        "function_name": "login",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": false,
+        "fetch_custom_user_data": true,
+        "create_user_on_auth": false,
+        "disabled": false,
+        "return_type": "JSON"
+    },
+    {
+        "route": "/create",
+        "http_method": "POST",
+        "function_name": "create",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": false,
+        "fetch_custom_user_data": true,
+        "create_user_on_auth": true,
+        "disabled": false,
+        "return_type": "JSON"
+    },
+    {
+        "route": "/verify",
+        "http_method": "POST",
+        "function_name": "verify",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": true,
+        "create_user_on_auth": false,
+        "disabled": false,
+        "return_type": "JSON"
+    },
+    {
+        "route": "/changePassword",
+        "http_method": "POST",
+        "function_name": "changePassword",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": true,
+        "create_user_on_auth": false,
+        "disabled": false,
+        "return_type": "JSON"
+    }
+]

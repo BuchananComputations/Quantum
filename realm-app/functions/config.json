@@ -1,0 +1,31 @@
+[
+    {
+        "name": "loadCommentsOffset",
+        "private": false
+    },
+    {
+        "name": "login",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "createUser",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "create",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "verify",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "changePassword",
+        "private": false,
+        "disable_arg_logs": true
+    }
+]

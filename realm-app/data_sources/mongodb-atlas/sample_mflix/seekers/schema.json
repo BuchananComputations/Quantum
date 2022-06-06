@@ -1,0 +1,137 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "string"
+        },
+        "connection_id": {
+            "bsonType": "objectId"
+        },
+        "global_id": {
+            "bsonType": "objectId"
+        },
+        "local_id": {
+            "bsonType": "objectId"
+        },
+        "premium_id": {
+            "bsonType": "objectId"
+        },
+        "seeker_about": {
+            "bsonType": "string"
+        },
+        "seeker_age": {
+            "bsonType": "string"
+        },
+        "seeker_body_type": {
+            "bsonType": "string"
+        },
+        "seeker_caters_to": {
+            "bsonType": "string"
+        },
+        "seeker_cup_size": {
+            "bsonType": "string"
+        },
+        "seeker_ethnicity": {
+            "bsonType": "string"
+        },
+        "seeker_eye_color": {
+            "bsonType": "string"
+        },
+        "seeker_gender": {
+            "bsonType": "string"
+        },
+        "seeker_hair_color": {
+            "bsonType": "string"
+        },
+        "seeker_has_profile_pic": {
+            "bsonType": "bool"
+        },
+        "seeker_height": {
+            "bsonType": "string"
+        },
+        "seeker_id": {
+            "bsonType": "string"
+        },
+        "seeker_identity_verified": {
+            "bsonType": "bool"
+        },
+        "seeker_is_host": {
+            "bsonType": "bool"
+        },
+        "seeker_listings_count": {
+            "bsonType": "int"
+        },
+        "seeker_location": {
+            "bsonType": "string"
+        },
+        "seeker_name": {
+            "bsonType": "string"
+        },
+        "seeker_neighbourhood": {
+            "bsonType": "string"
+        },
+        "seeker_picture_a_url": {
+            "bsonType": "string"
+        },
+        "seeker_picture_b_url": {
+            "bsonType": "string"
+        },
+        "seeker_picture_c_url": {
+            "bsonType": "string"
+        },
+        "seeker_picture_d_url": {
+            "bsonType": "string"
+        },
+        "seeker_picture_e_url": {
+            "bsonType": "string"
+        },
+        "seeker_picture_f_url": {
+            "bsonType": "string"
+        },
+        "seeker_picture_g_url": {
+            "bsonType": "string"
+        },
+        "seeker_picture_h_url": {
+            "bsonType": "string"
+        },
+        "seeker_picture_i_url": {
+            "bsonType": "string"
+        },
+        "seeker_picture_url": {
+            "bsonType": "string"
+        },
+        "seeker_provider_host": {
+            "bsonType": "bool"
+        },
+        "seeker_response_rate": {
+            "bsonType": "int"
+        },
+        "seeker_response_time": {
+            "bsonType": "string"
+        },
+        "seeker_shoe_size": {
+            "bsonType": "string"
+        },
+        "seeker_thumbnail_url": {
+            "bsonType": "string"
+        },
+        "seeker_total_listings_count": {
+            "bsonType": "int"
+        },
+        "seeker_url": {
+            "bsonType": "string"
+        },
+        "seeker_verifications": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "uberbooty_id": {
+            "bsonType": "objectId"
+        },
+        "user_id": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "seeker"
+}

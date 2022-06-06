@@ -1,0 +1,14 @@
+{
+    "versions": [
+        "v1"
+    ],
+    "run_as_system": false,
+    "run_as_user_id": "629c014cd05010a2dda51396",
+    "run_as_user_id_script_source": "",
+    "disabled": false,
+    "validation_method": "",
+    "secret_name": "",
+    "fetch_custom_user_data": false,
+    "create_user_on_auth": true,
+    "return_type": "JSON"
+}

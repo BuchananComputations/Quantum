@@ -1,0 +1,14 @@
+{
+    "global_id": {
+        "ref": "#/relationship/mongodb-atlas/sample_mflix/users",
+        "source_key": "global_id",
+        "foreign_key": "_id",
+        "is_list": false
+    },
+    "seeker_id": {
+        "ref": "#/relationship/mongodb-atlas/sample_mflix/connections",
+        "source_key": "seeker_id",
+        "foreign_key": "seeker_id",
+        "is_list": false
+    }
+}
